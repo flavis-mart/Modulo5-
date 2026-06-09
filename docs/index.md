@@ -46,3 +46,17 @@ def somar(a, b):
 resultado = somar(5, 3)
 print(resultado)
 ```
+
+### Exercício 5
+
+# Diagrama de Fluxo - Processo de Login
+
+```mermaid
+flowchart TD
+    A[Início] --> B[Usuário informa login e senha]
+    B --> C{Dados válidos?}
+    C -- Sim --> D[Acesso permitido]
+    C -- Não --> E[Exibir mensagem de erro]
+    D --> F[Fim]
+    E --> F
+```
