@@ -8,3 +8,24 @@ O sistema permite que os usuários façam upload de arquivos, que serão armazen
 no servidor para que, posteriormente, os administradores possam acessá-los.
 
 Os administradores possuem acesso aos arquivos armazenados no servidor através da funcionalidade de upload.
+
+### Exercício 3
+# Instalação e configuração do Node.js
+# Instalar o Node.js
+1. Acesse o site oficial do Node.js
+2. Faça download da versão recomendada
+3. Execute o instalador e conclua a instalação
+
+# Configurar o ambiente
+1. Verifique se as variáveis de ambiente foram configuradas automaticamente
+2. Caso necessário, adicione o Node.js ao PATH do sistema
+
+# Testar a instalação
+1. Abra o terminal
+2. Execute o comando: node -v
+3. Verifique se a versão instalada é exibida corretamente
+
+# Criar um novo projeto 
+1. Navegue até a pasta onde deseja criar o projeto
+2. Execute o comando: npm init
+3. Preencha as informações solicitadas ou utilize: npm init -y para gerar o arquivo package.json automaticamente
